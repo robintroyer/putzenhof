@@ -257,7 +257,7 @@
           <div class="cards">
             <div></div>
             <div class="card">
-              <img src="./src/images/csm_putzenhof-appartement-03_6de71fe36f.jpg">
+              <img src="./src/images/csm_putzenhof-appartement-03_6de71fe36f.png">
               <div class="card-section">
                 <h4>Appartements</h4>
                 <p>gediegen Wohnen im Putzenhof</p>
