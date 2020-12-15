@@ -702,7 +702,7 @@ li.is-accordion-submenu-item {
     display: flex;
     justify-content: center;
     background-color: white;
-    z-index: 1000 !important;
+    z-index: 1001 !important;
     box-shadow: 0px 0px 20px 0px lightgrey;
   }
 
@@ -734,5 +734,28 @@ li.is-accordion-submenu-item {
 
   .logo_alt {
     display: none;
+  }
+
+  .card img:not(:last-child) {
+    transition: transform 0.2s;
+  }
+  .card img:last-child {
+    transition: margin-right 20px;
+    transition-duration: 0.5s;
+  }
+  .card .card-section {
+    z-index: 1000;
+    background-color: white;
+  }
+
+  .card:hover img:not(:last-child) {
+    transform: scale(1.05);
+  }
+  .card:hover img:last-child {
+    margin-right: 5px;
+  }
+
+  .card {
+    max-width: 550px;
   }
 }
