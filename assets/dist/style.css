@@ -758,4 +758,25 @@ li.is-accordion-submenu-item {
   .card {
     max-width: 550px;
   }
+
+  .button.navbtn {
+    background-color: white;
+    color: black;
+  }
+
+  .pcnav_a {
+    color: black !important;
+  }
+
+  .submenu {
+    display: none !important;
+  }
+
+  .is-dropdown-submenu-parent:hover .submenu {
+    display: block !important;
+  }
+
+  .is-submenu-item a {
+    color: black;
+  }
 }
